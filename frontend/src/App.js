@@ -5,6 +5,8 @@ import ProductList from './component/ProductList';
 import Cart from './component/Cart';
 import Checkout from './component/CheckOut';
 import Home from './component/Home';
+import LoginPage from './component/LoginPage';
+import RegisterPage from './component/RegisterPage';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path="/products" element={<ProductList />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/login" element={<LoginPage/>} />
+          <Route path="/register" element={<RegisterPage/>} />
         </Routes>
       </div>
     </>

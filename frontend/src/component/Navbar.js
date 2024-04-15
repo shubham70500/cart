@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link className="nav-link" to="/cart">
           <FontAwesomeIcon icon={faShoppingCart} size="lg" style={{ color: 'white' }} />
         </Link>
-        <Link className="nav-link" to="/login">
+         <Link className="nav-link" to="/login">
             <FontAwesomeIcon icon={faUser} size="lg" style={{ color: 'white', marginLeft: '10px' }} />
           </Link>
       </div>
