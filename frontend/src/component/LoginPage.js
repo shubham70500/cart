@@ -44,6 +44,7 @@ const LoginPage = () => {
           </div>
         </div>
       </FlipMove>
+      
     </div>
   );
 };
